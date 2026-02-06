@@ -361,3 +361,28 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Visual Studio junk
+.vs/
+*.user
+*.suo
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# Intermediate files
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.log
+*.tlog
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake

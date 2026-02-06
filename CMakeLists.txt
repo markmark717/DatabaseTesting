@@ -12,4 +12,4 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cpp")
 
 # Create executable
-add_executable(DatabaseTesting ${SOURCES})
+add_executable(DatabaseTesting ${SOURCES} "include/DataBaseManager.h")

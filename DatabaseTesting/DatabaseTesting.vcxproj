@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DatabaseTesting.cpp" />
+    <ClCompile Include="CLIHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QueryParser.cpp" />
+    <ClCompile Include="Record.cpp" />
+    <ClCompile Include="StorageManager.cpp" />
+    <ClCompile Include="Table.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLIHandler.h" />
+    <ClInclude Include="QueryParser.h" />
+    <ClInclude Include="Record.h" />
+    <ClInclude Include="StorageManager.h" />
+    <ClInclude Include="Table.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

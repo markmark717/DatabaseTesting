@@ -368,6 +368,8 @@ FodyWeavers.xsd
 *.suo
 
 # Build output
+build
+
 
 # Intermediate files
 *.obj
